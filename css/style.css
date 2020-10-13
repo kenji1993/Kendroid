@@ -1,6 +1,7 @@
 :root {
     --fontsize: 1.6rem;
     --logo-background: #9cc76b;
+    --font-family: 'Roboto Mono', monospace;
 }
 * {
     margin: 0;
@@ -29,17 +30,24 @@ body {
         background-position: 0 50%;
     }
 }
-
+ul li {
+    list-style: none;
+}
 header {
     width: 100%;
     height: 20vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     font-size: var(--fontsize);
     color: #fff;
+    font-family: var(--font-family);
 }
-
+.header-right {
+    margin: 0.4rem;
+}
+.header-right ul li{
+    display: inline-flex;
+}
 main {
     width: 100%;
     height: 60vh;
@@ -60,9 +68,11 @@ footer {
     align-items: center;
     border: 0.3rem solid #fff;
     border-radius: 4rem;
+    cursor: pointer;
 }
 
 .fa-kickstarter-k {
     color: #fff;
     font-size: 2.5rem;
+   
 }
