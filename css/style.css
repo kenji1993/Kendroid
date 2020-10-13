@@ -1,5 +1,68 @@
+:root {
+    --fontsize: 1.6rem;
+    --logo-background: #9cc76b;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#2305ab );
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+@keyframes change{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fontsize);
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 60vh;
+}
+footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-color: var(--logo-background);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3rem solid #fff;
+    border-radius: 4rem;
+}
+
+.fa-kickstarter-k {
+    color: #fff;
+    font-size: 2.5rem;
 }
