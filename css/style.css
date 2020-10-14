@@ -5,6 +5,7 @@
     --twitter: #1da1f2;
     --trello: #2f6ec3;
     --youtube: #ff0000;
+    --telegram: #24a1de;
 
 }
 * {
@@ -83,6 +84,14 @@ main {
     padding: 1rem;
     border-radius: 4rem;
     color: var(--youtube);
+}
+.fa-telegram-plane {
+    font-size: 3rem;
+    background-color: var(--telegram);
+    color: #fff;
+    padding: 0.7rem;
+    border: 0.3rem solid #fff;
+    border-radius: 4rem;
 }
 footer {
     width: 100%;
