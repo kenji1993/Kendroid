@@ -2,6 +2,10 @@
     --fontsize: 1.6rem;
     --logo-background: #9cc76b;
     --font-family: 'Roboto Mono', monospace;
+    --twitter: #1da1f2;
+    --trello: #2f6ec3;
+    --youtube: #ff0000;
+
 }
 * {
     margin: 0;
@@ -51,6 +55,34 @@ header {
 main {
     width: 100%;
     height: 60vh;
+    font-size: 3rem;
+
+}
+.iconos {
+    display: grid;
+    justify-items: center;
+    grid-template: 25% 25% 25% 25% / repeat(4, 1fr);
+}
+.fa-trello {
+    background-color: var(--trello);
+    padding: 1rem;
+    border-radius: 4rem; 
+    color: #fff;
+}
+.fa-twitter {
+    background-color: var(--twitter);
+    padding: 1rem;
+    border-radius: 4rem;
+    color: #fff;
+}
+.fa-github-square {
+    font-size: 5rem;
+}
+.fa-youtube {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4rem;
+    color: var(--youtube);
 }
 footer {
     width: 100%;
@@ -69,8 +101,14 @@ footer {
     border: 0.3rem solid #fff;
     border-radius: 4rem;
     cursor: pointer;
+    transition: transform .3s;  
 }
-
+.logo:hover {
+    transform: scale(1.2);
+}
+.logo:active {
+    transform: scale(1.2);
+}
 .fa-kickstarter-k {
     color: #fff;
     font-size: 2.5rem;
