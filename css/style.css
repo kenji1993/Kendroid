@@ -94,7 +94,7 @@ main {
     border: 0.3rem solid #fff;
     border-radius: 4rem;
 }
-.simon-dice figure img{
+.simon-dice a figure img{
     width: 5.3rem;
     height: 5.3rem;
 }
