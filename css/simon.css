@@ -1,18 +1,30 @@
-* {
-  font-family: 'Roboto Mono', monospace;
-}
-
-body {
+  * {
     margin: 0;
-    background: #dedede;
-    display: flex;
-    align-items: center;
-    height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
   }
-
-  .gameboard {
-    height: 100vh;
-    width: 100vh;
+  html {
+    font-size: 62.5%;
+  }
+  body {
+      margin: 0;
+      background: #dedede;
+      height: 100vh;
+    }
+  header {
+    width: 100%;
+    height: 20vh;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: end;
+  }
+  .fa-home {
+    font-size: 3rem;
+  }
+  .gameboard { 
+    width: 100%;
+    height: 60vh;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
@@ -67,14 +79,14 @@ body {
   }
 
   .btn-start {
-    width: 400px;
-    height: 100px;
+    width: 30rem;
+    height: 10rem;
     background: #ecf0f1;
     color: #2c3e50;
     font-size: 2.5rem;
     position: absolute;
-    top: calc(50% - 50px);
-    left: calc(50% - 200px);
+    top: calc(50% - 5rem);
+    left: calc(50% - 15rem);
   }
 
   .hide {
