@@ -3,8 +3,8 @@
     --logo-background: #9cc76b;
     --font-family: 'Roboto Mono', monospace;
     --space: #1da1f2;
-    --trello: #2f6ec3;
-    --youtube: #ff0000;
+    --trello: hsl(214, 61%, 47%);
+    --play: #000;
     --telegram: #24a1de;
 
 }
@@ -86,11 +86,17 @@ main {
 .fa-github-square {
     font-size: 5rem;
 }
-.fa-youtube {
-    background-color: #fff;
-    padding: 1rem;
+.span-play {
+    width: 5rem;
+    height: 5rem;
     border-radius: 4rem;
-    color: var(--youtube);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-play {
+    color: var(--play);
 }
 .fa-telegram-plane {
     font-size: 3rem;
