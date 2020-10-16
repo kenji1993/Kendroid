@@ -2,7 +2,7 @@
     --fontsize: 1.6rem;
     --logo-background: #9cc76b;
     --font-family: 'Roboto Mono', monospace;
-    --twitter: #1da1f2;
+    --space: #1da1f2;
     --trello: #2f6ec3;
     --youtube: #ff0000;
     --telegram: #24a1de;
@@ -71,10 +71,16 @@ main {
     border-radius: 4rem; 
     color: #fff;
 }
-.fa-twitter {
-    background-color: var(--twitter);
-    padding: 1rem;
+.span-space {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--space);
     border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-user-astronaut {
     color: #fff;
 }
 .fa-github-square {

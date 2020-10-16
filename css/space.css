@@ -1,0 +1,35 @@
+:root {
+    --space: #1da1f2;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.space-header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1rem solid lightgrey;
+}
+.space-header-perfil img {
+    width: 4.1rem;
+}
+.fa-user-astronaut {
+    color: var(--space);
+    font-size: 3rem;
+}
+.space-body {
+    width: 100%;
+    height: 80vh;
+    border-bottom: 0.1rem solid lightgrey;
+}
+.space-footer {
+    width: 100%;
+    height: 10vh;
+}
