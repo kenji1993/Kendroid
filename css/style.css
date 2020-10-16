@@ -2,9 +2,9 @@
     --fontsize: 1.6rem;
     --logo-background: #9cc76b;
     --font-family: 'Roboto Mono', monospace;
-    --twitter: #1da1f2;
-    --trello: #2f6ec3;
-    --youtube: #ff0000;
+    --space: #1da1f2;
+    --columns: hsl(214, 61%, 47%);
+    --play: #000;
     --telegram: #24a1de;
 
 }
@@ -65,26 +65,48 @@ main {
     grid-row-gap: 2rem;
     grid-template: 25% 25% 25% 25% / repeat(4, 1fr);
 }
-.fa-trello {
-    background-color: var(--trello);
+.fa-columns {
+    background-color: var(--columns);
     padding: 1rem;
     border-radius: 4rem; 
     color: #fff;
 }
-.fa-twitter {
-    background-color: var(--twitter);
-    padding: 1rem;
+.span-space {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--space);
     border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-user-astronaut {
     color: #fff;
 }
-.fa-github-square {
-    font-size: 5rem;
-}
-.fa-youtube {
-    background-color: #fff;
-    padding: 1rem;
+.span-code {
+    width: 5rem;
+    height: 5rem;
     border-radius: 4rem;
-    color: var(--youtube);
+    border: 0.2rem solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-code-branch {
+    font-size: 3.2rem;
+    color: #fff;
+}
+.span-play {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-play {
+    color: var(--play);
 }
 .fa-telegram-plane {
     font-size: 3rem;

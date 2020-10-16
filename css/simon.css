@@ -1,0 +1,96 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+      margin: 0;
+      background: #dedede;
+      height: 100vh;
+    }
+  header {
+    width: 100%;
+    height: 20vh;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: end;
+  }
+  .fa-home {
+    font-size: 3rem;
+    cursor: pointer;
+    color: rgb(77, 73, 73);
+  }
+  .gameboard { 
+    width: 100%;
+    height: 60vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+  }
+
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .celeste {
+    background: #22a6b3;
+  }
+
+  .celeste.light {
+    background: #7ed6df;
+  }
+
+  .violeta {
+    background: #be2edd;
+  }
+
+  .violeta.light {
+    background: #e056fd;
+  }
+
+  .naranja {
+    background: #f0932b;
+  }
+
+  .naranja.light {
+    background: #ffbe76;
+  }
+
+  .verde {
+    background: #6ab04c;
+  }
+
+  .verde.light {
+    background: #badc58;
+  }
+
+  .btn-start {
+    width: 30rem;
+    height: 10rem;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 5rem);
+    left: calc(50% - 15rem);
+  }
+
+  .hide {
+    display: none;
+  }
