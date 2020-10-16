@@ -64,5 +64,16 @@ html {
     height: 5vh;
     background-color:lightgrey;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.barra-smart 
+.barra-smart span .fa-chevron-left {
+    font-size: 2rem;
+    color: grey;
+    cursor: pointer;
+}
+.barra-smart span .fa-minus {
+    font-size: 4rem;
+    color: rgb(71, 69, 69);
+    cursor: pointer;
+}
