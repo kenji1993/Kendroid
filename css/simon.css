@@ -21,6 +21,8 @@
   }
   .fa-home {
     font-size: 3rem;
+    cursor: pointer;
+    color: rgb(77, 73, 73);
   }
   .gameboard { 
     width: 100%;

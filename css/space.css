@@ -12,8 +12,10 @@ html {
 .space-header {
     width: 100%;
     height: 10vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 0.1rem solid lightgrey;
 }
@@ -24,6 +26,10 @@ html {
     color: var(--space);
     font-size: 3rem;
 }
+.fa-star {
+    font-size: 3rem;
+    color: lightgrey;
+}
 .space-body {
     width: 100%;
     height: 80vh;
@@ -32,4 +38,12 @@ html {
 .space-footer {
     width: 100%;
     height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.4rem;
+    color: rgb(71, 68, 68);
+}
+.space-footer span i {
+    cursor: pointer;
 }
