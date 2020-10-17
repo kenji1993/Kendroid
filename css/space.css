@@ -12,6 +12,10 @@
 html {
     font-size: 62.5%;
 }
+body {
+    width: 100%;
+    height: 100vh;
+}
 .loader {
     width: 100%;
     height: 100vh;
