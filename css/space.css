@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family);
 }
 html {
     font-size: 62.5%;
@@ -57,8 +58,44 @@ html {
     height: 70vh;
     border-bottom: 0.1rem solid lightgrey;
 }
+.post {
+    padding: 2rem;
+    border-bottom: 0.1rem solid lightgrey;
+}
 .post-header {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.post-header-user p {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.fa-angle-down {
+    color: grey;
+}
+.post-body {
+    width: 90%;
+    margin-bottom: 0.5rem;
+} 
+.post-footer {
+    width: 80%;
+    color: grey;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.post-footer span i {
+    cursor: pointer;
+}
+.fa-heart {
+    color: lightgrey;
+}
+.fa-heart-like {
+    color: red;
+}
+.respace {
+    color: rgb(40, 192, 40);
 }
 .space-footer {
     width: 100%;
