@@ -43,6 +43,7 @@ body {
     background-color: #fff;
     position: absolute;
     display: none;
+    margin-top: 2.7rem;
 }
 .wrap-navbar-show {
     display: block;
@@ -70,6 +71,7 @@ body {
     font-size: 1.6rem;
     margin-bottom: 2rem;
     cursor: pointer;
+    list-style: none;
 }
 .wrap-navbar-body ul li a,
 .wrap-navbar-footer ul li a {
