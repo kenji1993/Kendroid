@@ -19,26 +19,7 @@
 
     
 
-    <div class="smart-herramientas">
-        <div id="hora" class="hora"></div>
-
-        <div class="smart-herramientas-right">
-            <ul>
-                <li>
-                    <i class="fas fa-volume-up"></i>
-                </li>
-                <li>
-                    <i class="fas fa-wifi"></i>
-                </li>
-                <li>
-                    <i class="fas fa-signal"></i>
-                </li>
-                <li>
-                    <i class="fas fa-battery-three-quarters"></i>
-                </li>
-            </ul>
-        </div>
-    </div>
+    
         <!-- MENU PLEGABLE -->
         <div class="wrap-navbar" id="navbar">
             <div class="wrap-navbar-header">
@@ -96,15 +77,38 @@
             </div>
         </div>
     <div class="space-header">
-        <figure class="space-header-perfil">
-            <img src="../img/perfil-space.png" alt="foto de perfil" onclick="wrapNavbar();">
-        </figure>
-        <span class="space-logo">
-            <i class="fas fa-user-astronaut"></i>
-        </span>
-        <span class="space-favs">
-            <i class="far fa-star"></i>
-        </span>
+        <div class="smart-herramientas">
+            <div id="hora" class="hora"></div>
+    
+            <div class="smart-herramientas-right">
+                <ul>
+                    <li>
+                        <i class="fas fa-volume-up"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-wifi"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-signal"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-battery-three-quarters"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="space-header-menu">
+            <figure class="space-header-perfil">
+                <img src="../img/perfil-space.png" alt="foto de perfil" onclick="wrapNavbar();">
+            </figure>
+            <span class="space-logo">
+                <i class="fas fa-user-astronaut"></i>
+            </span>
+            <span class="space-favs">
+                <i class="far fa-star"></i>
+            </span>
+        </div>
+      
     </div>
     <div class="space-body">
         <div class="post">
@@ -202,29 +206,34 @@
         </div>
     </div>
     <div class="space-footer">
-        <span>
-            <i class="fas fa-home"></i>
-        </span>
-        <span>
-            <i class="fas fa-search"></i>
-        </span>
-        <span>
-            <i class="far fa-bell"></i>
-        </span>
-        <span>
-            <i class="far fa-envelope"></i>
-        </span>
+        <div class="space-footer-menu">
+            <span>
+                <i class="fas fa-home"></i>
+            </span>
+            <span>
+                <i class="fas fa-search"></i>
+            </span>
+            <span>
+                <i class="far fa-bell"></i>
+            </span>
+            <span>
+                <i class="far fa-envelope"></i>
+            </span>
+        </div>
+        
+
+        <div class="barra-smart">
+            <span>
+             <i class="fas fa-chevron-left"></i>
+            </span>
+            <span>
+                <a href="../index.html">
+                 <i class="fas fa-minus"></i></a>       
+            </span>
+            <span></span>
+         </div>
     </div>
-    <div class="barra-smart">
-       <span>
-        <i class="fas fa-chevron-left"></i>
-       </span>
-       <span>
-           <a href="../index.html">
-            <i class="fas fa-minus"></i></a>       
-       </span>
-       <span></span>
-    </div>
+   
 
     <script src="../js/hora.js"></script>
     <script src="../js/space.js"></script>
