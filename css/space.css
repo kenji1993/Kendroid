@@ -86,11 +86,15 @@ body {
     display: flex;
     align-items: center;
 }
-.wrap-navbar-body ul li,
+.wrap-navbar-body ul li ,
 .wrap-navbar-footer ul li {
     font-size: 1.6rem;
     margin-bottom: 2rem;
     cursor: pointer;
+}
+.wrap-navbar-body ul li a,
+.wrap-navbar-footer ul li a {
+    color: black;
 }
 .wrap-navbar-footer {
     width: 100%;
