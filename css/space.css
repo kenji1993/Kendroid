@@ -138,6 +138,10 @@ body {
     font-weight: bold;
     font-size: 1.1rem;
 }
+.post-header-user p:nth-child(2) {
+    color: grey;
+    font-weight: normal;
+}
 .fa-angle-down {
     color: grey;
 }
